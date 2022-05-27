@@ -27,14 +27,14 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: '✓ Success',
-    admin: 'Fitur Khusus Admin Group!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Fitur Khusus Owner Bot',
-    group: 'Fitur Digunakan Hanya Untuk Group!',
-    private: 'Fitur Digunakan Hanya Untuk Private Chat!',
-    bot: 'Fitur Khusus Pengguna Nomor Bot',
+    admin: 'Special features admin group!',
+    botAdmin: 'The Bot must be an Admin first!',
+    owner: 'Special Owner Bot Features',
+    group: 'Features used Only for Group!',
+    private: 'Features used only for Private Chat!',
+    bot: 'Special features of Bot Number Users',
     wait: 'Loading...',
-    endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
+    endLimit: 'Your Daily Limit Has Been Exhausted, The Limit Will Be Reset Every 12 Hours',
 }
 global.limitawal = {
     premium: "Infinity",
