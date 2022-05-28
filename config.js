@@ -1,6 +1,6 @@
 /**
-   * Create By Dika Ardnt.
-   * Contact Me on wa.me/6288292024190
+   * Create By Duxlin.
+   * Contact Me on wa.me/2347082252014
    * Follow https://github.com/DikaArdnt
 */
 
@@ -18,10 +18,10 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['254114148625']
-global.premium = ['254114148625']
+global.owner = ['2347082252014']
+global.premium = ['2347082252014']
 global.packname = 'Kanambo bot'
-global.author = 'WhatsApp Bot'
+global.author = 'Dux Bot'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
