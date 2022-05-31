@@ -99,3 +99,4 @@ License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
 Support Me
 * [`Paypal`](https://www.paypal.me/Cakhaho)
 * [`Saweria`](https://saweria.co/DikaArdnt)
+Thanks so much
