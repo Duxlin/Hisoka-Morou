@@ -3,6 +3,8 @@ From now on, this script will no longer be continued, if you want to add somethi
 
 If you want to sell normally, don't cheat or give empty hopes, for example "the step feature is sold, there is a store ", that's okay, you can make profit but don't harm other people
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kanambp/Hisoku-Morou)
+
 Best Regards. Hisoka
 
 # Hisoka-Morou
