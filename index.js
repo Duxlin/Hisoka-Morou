@@ -1,7 +1,7 @@
 /**
    * Create Kanambp.
    * Contact Me on wa.me/254114148625
-   * Follow https://github.com/DikaArdnt
+   * Follow https://github.com/Kanambp
 */
 
 require('./config')
