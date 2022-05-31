@@ -1,7 +1,7 @@
 /**
-   * Create Duxlin.
-   * Contact Me on wa.me/2347082252014
-   * Follow https://github.com/DikaArdnt
+   * Create Kanambp.
+   * Contact Me on wa.me/254114148625
+   * Follow https://github.com/Kanambp
 */
 
 require('./config')
