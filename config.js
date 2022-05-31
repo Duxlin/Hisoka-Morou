@@ -1,7 +1,7 @@
 /**
-   * Create By Duxlin.
+   * Create By Kanambp.
    * Contact Me on wa.me/254114148625
-   * Follow https://github.com/DikaArdnt
+   * Follow https://github.com/Kanambp
 */
 
 const fs = require('fs')
@@ -21,7 +21,7 @@ global.APIKeys = {
 global.owner = ['254114148625']
 global.premium = ['254114148625']
 global.packname = 'Kanambo bot'
-global.author = 'Dux Bot'
+global.author = 'Kanambp'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
