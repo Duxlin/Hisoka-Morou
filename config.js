@@ -1,6 +1,6 @@
 /**
    * Create By Kanambp.
-   * Contact Me on wa.me/254114148625
+   * Contact Me on https://wa.me/254114148625
    * Follow https://github.com/Kanambp
 */
 
