@@ -144,7 +144,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 	  // Anti Link
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        m.reply(`「 ANTI LINK 」\n\nKamu terdeteksi mengirim link group, maaf kamu akan di kick !`)
+        m.reply(`「 ANTI LINK 」\n\n*group detected😡*,i am kicking you!`)
         if (!isBotAdmins) return m.reply(`Ehh bot gak admin T_T`)
         let gclink = (`https://chat.whatsapp.com/`+await hisoka.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
