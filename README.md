@@ -14,7 +14,7 @@ Script WhatsApp Bot Multi Device
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
 <p align="center">
-	<img src="https://swalanyeti.co.ke/news/4036/raila-names-martha-karua-as-running-mate-in-milestone-for-kenyan-women-photos" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+	<img src="https://www.britannica.com/biography/Raila-Odinga.jp" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 <h1 align="center">Hisoka-Morou</h1>
 
