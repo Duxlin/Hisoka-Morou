@@ -37,9 +37,9 @@ let modes = {
         hasil = { 
             soal: `${a} ${operators[op]} ${b}`,
             mode: mode,
-            waktu: time,
+            time: time,
             hadiah: bonus,
-            jawaban: result
+            answer: result
          }
          resolve(hasil)
       })
