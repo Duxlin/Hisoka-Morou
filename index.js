@@ -324,7 +324,7 @@ async function startHisoka() {
      * @param {*} options
      * @returns
      */
-    hisoka.send5ButImg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
+    hisoka.send5 = async (jid , text = '' , footer = '', [], options = {}) =>{
         let message = await prepareWAMessageMedia({ image: img }, { upload: hisoka.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
         templateMessage: {
