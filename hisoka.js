@@ -850,9 +850,9 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!isAdmins) throw mess.admin
 let teks = `══✪〘 *👥 Tag All* 〙✪══
  
- ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
+ 🦄 *Pesan : ${q ? q : 'kosong'}*\n\n'
                 for (let mem of participants) {
-                teks += `⭔ @${mem.id.split('@')[0]}\n`
+                teks += `🏵️ @${mem.id.split('@')[0]}\n`
                 }
                 hisoka.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                 }
@@ -1080,13 +1080,13 @@ break
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
-                if (db.data.chats[m.chat].antilink) return m.reply(`Sudah Aktif Sebelumnya`)
+                if (db.data.chats[m.chat].antilink) return m.reply(`is active previously')
                 db.data.chats[m.chat].antilink = true
-                m.reply(`Antilink Aktif !`)
+                m.reply(`Antilink Active !`)
                 } else if (args[0] === "off") {
-                if (!db.data.chats[m.chat].antilink) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
+                if (!db.data.chats[m.chat].antilink) return m.reply(`is not active previous`)
                 db.data.chats[m.chat].antilink = false
-                m.reply(`Antilink Tidak Aktif !`)
+                m.reply(`Antilink is not active !`)
                 } else {
                  let buttons = [
                         { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
@@ -1101,11 +1101,11 @@ break
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
                 if (args[0] === "on") {
-                if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya`)
+                if (db.data.chats[m.chat].mute) return m.reply(`is active previously`)
                 db.data.chats[m.chat].mute = true
                 m.reply(`${hisoka.user.name} telah di mute di group ini !`)
                 } else if (args[0] === "off") {
-                if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
+                if (!db.data.chats[m.chat].mute) return m.reply(`is not active previously')
                 db.data.chats[m.chat].mute = false
                 m.reply(`${hisoka.user.name} telah di unmute di group ini !`)
                 } else {
@@ -1250,7 +1250,7 @@ break
                  let teks = `⬣ *LIST PERSONAL CHAT*\n\nTotal Chat : ${anu.length} Chat\n\n`
                  for (let i of anu) {
                      let nama = store.messages[i].array[0].pushName
-                     teks += `⬡ *Nama :* ${nama}\n⬡ *User :* @${i.split('@')[0]}\n⬡ *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
+                     teks += `😊 *Nama :* ${nama}\n⬡ *User :* @${i.split('@')[0]}\n⬡ *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
                  }
                  hisoka.sendTextWithMentions(m.chat, teks, m)
              }
@@ -1260,7 +1260,7 @@ break
                  let teks = `⬣ *LIST GROUP CHAT*\n\nTotal Group : ${anu.length} Group\n\n`
                  for (let i of anu) {
                      let metadata = await hisoka.groupMetadata(i)
-                     teks += `⬡ *Nama :* ${metadata.subject}\n⬡ *Owner :* ${metadata.owner !== undefined ? '@' + metadata.owner.split`@`[0] : 'Tidak diketahui'}\n⬡ *ID :* ${metadata.id}\n⬡ *Dibuat :* ${moment(metadata.creation * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')}\n⬡ *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
+                     teks += `🏵️ *Nama :* ${metadata.subject}\n⬡ *Owner :* ${metadata.owner !== undefined ? '@' + metadata.owner.split`@`[0] : 'Tidak diketahui'}\n⬡ *ID :* ${metadata.id}\n⬡ *Dibuat :* ${moment(metadata.creation * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')}\n⬡ *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
                  }
                  hisoka.sendTextWithMentions(m.chat, teks, m)
              }
@@ -1510,8 +1510,8 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '♫ Audio'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '► Video'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶 Audio'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '🎦 Video'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
@@ -1622,14 +1622,6 @@ break
 		let buttons = [
                     {buttonId: `wallpaper ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
                 ]
-                let buttonMessage = {
-                    image: { url: result.image[0] },
-                    caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: hisoka.user.name,
-                    buttons: buttons,
-                    headerType: 4
-                }
-                hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
             case 'wikimedia': {
