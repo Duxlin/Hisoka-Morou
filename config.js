@@ -18,11 +18,11 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['254114148625']
-global.premium = ['254114148625']
-global.packname = 'Kanambo bot'
-global.author = 'Kanambp'
-global.sessionName = 'hisoka'
+global.owner = ['2347082252014']
+global.premium = ['2347082252014']
+global.packname = 'QUADHIR Wabot'
+global.author = 'DUX'
+global.sessionName = 'quadhir'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
