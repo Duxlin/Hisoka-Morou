@@ -1,7 +1,7 @@
 /**
-   * Create By Kanambp.
-   * Contact Me on https://wa.me/254114148625
-   * Follow https://github.com/Kanambp
+   * Create By DUX.
+   * Contact Me on https://wa.me/2347082252014
+   * Follow https://github.com/Duxlin
 */
 
 const fs = require('fs')
