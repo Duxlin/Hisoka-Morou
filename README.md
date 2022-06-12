@@ -1,8 +1,5 @@
 # CATATAN ( NOTE )
-From now on, this script will no longer be continued, if you want to add something, it's better to make it private, it's cool, you have it but the others don't, so you can sell the feature if it's public in this script, maybe you will lose yourself, it's already difficult -difficult to make code but they sell it Ama who only takes money and makes content, good luck for youtubers, but it's up to you if you want to pull, I'll still ACC
-
-If you want to sell normally, don't cheat or give empty hopes, for example "the step feature is sold, there is a store ", that's okay, you can make profit but don't harm other people
-
+  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kanambp/Hisoku-Morou)
 
 Best Regards. Hisoka
@@ -11,7 +8,7 @@ Best Regards. Hisoka
 Script WhatsApp Bot Multi Device
 
 ## NOTE
-This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
+Jika dijual neraka menunggumu brother !
 
 <p align="center">
 	<img src="https://www.britannica.com/biography/Raila-Odinga.jp" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
@@ -77,8 +74,6 @@ $ node .
 WhatsApp bot is still in the development stage, so there are a few bugs
 WhatsApp Connection (BETA, not working perfectly)
 
-Editing Number Owner & session name in [`config.js`](https://github.com/DikaArdnt/Hisoka-Morou/blob/master/config.js)
-Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
 
 
 ## Thanks To
