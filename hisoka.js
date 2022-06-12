@@ -1,7 +1,7 @@
 /**
-   * Create By Kanambp.
-   * Contact Me on wa.me/254114148625
-   * Follow https://github.com/Kanambp
+   * Create Quadhir.
+   * Contact Me on wa.me/2347082252014
+   * Follow https://github.com/Duxlin
 */
 
 require('./config')
