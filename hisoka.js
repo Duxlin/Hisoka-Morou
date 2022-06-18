@@ -762,51 +762,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await hisoka.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 	}
-	
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-			
-			
-			
-			
-			
-
-	
-
-	
-
-	
-		
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-
-	
+	break
 	case 'add': {
 		if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
@@ -841,23 +797,16 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 		if (!isCreator) throw mess.owner
 		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 		await hisoka.updateBlockStatus(users, 'unblock').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
-	}break
-
-            case 'kickall': {
-
+	}
+         break
+       case 'kickall': {
                 if (!m.isGroup) throw mess.group
-
                 if (!isBotAdmins) throw mess.botAdmin
-
                 if (!isAdmins) throw mess.admin
-		
 		if (!isCreator) throw mess.owner
-		    
-	
-			
-		    = `══✪〘 *👥 Kick All* 〙✪══
-		
-	
+	         = `══✪〘 *👥 Kick All* 〙✪══
+	   }
+            break
 	    case 'setname': case 'setsubject': {
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
