@@ -804,8 +804,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
 		if (!isCreator) throw mess.owner
-	         = `══✪〘 *👥 Kick All* 〙✪══
-	   }
+
+	}
             break
 	    case 'setname': case 'setsubject': {
                 if (!m.isGroup) throw mess.group
@@ -3052,13 +3052,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}setexif
 │⭔ ${prefix}setmenu [option]
 │⭔ ${prefix}kickall
-│⭔ ${prefix}virtex
-
-
-
-
-
-└───────⭓`
+└───────⭓
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
