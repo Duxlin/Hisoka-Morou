@@ -1,5 +1,5 @@
 /**
-   * Create Kanambp.
+   * Create dux.
    * Contact Me on wa.me/2347082252014
    * Follow https://github.com/Duxlin
 */
