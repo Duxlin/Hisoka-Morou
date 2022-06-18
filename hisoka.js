@@ -825,9 +825,9 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
           case 'setppbot': {
                 if (!isCreator) throw mess.owner
-                if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (!quoted) throw `Reply Image Dengan Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Reply Image Dengan Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Reply Image Dengan Caption ${prefix + command}`
                 let media = await hisoka.downloadAndSaveMediaMessage(quoted)
                 await hisoka.updateProfilePicture(botNumber, { url: media }).catch((err) => fs.unlinkSync(media))
                 m.reply(mess.success)
@@ -836,9 +836,9 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
            case 'setppgroup': case 'setppgrup': case 'setppgc': {
                 if (!m.isGroup) throw mess.group
                 if (!isAdmins) throw mess.admin
-                if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-                if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
-                if (/webp/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
+                if (!quoted) throw `Reply Image Dengan Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Reply Image Dengan Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Reply Image Dengan Caption ${prefix + command}`
                 let media = await hisoka.downloadAndSaveMediaMessage(quoted)
                 await hisoka.updateProfilePicture(m.chat, { url: media }).catch((err) => fs.unlinkSync(media))
                 m.reply(mess.success)
