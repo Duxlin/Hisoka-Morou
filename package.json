@@ -1,6 +1,6 @@
 {
   "name": "hisoka-morou",
-  "version": "1.2.3",
+  "version": "3.1.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
   "type": "commonjs",
@@ -18,11 +18,12 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "Dux.",
+  "author": "Dika Ardnt.",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.1.0",
+    "@whiskeysockets/baileys" : "^6.2.1",
     "@adiwajshing/keyed-db": "^0.2.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^0.24.0",
     "chalk": "^4.1.2",
@@ -34,7 +35,7 @@
     "fs": "0.0.1-security",
     "got": "^11.8.3",
     "g-i-s": "^2.1.6",
-    "google-it": "^1.6.2",
+    "google-it": "^1.6.3",
     "human-readable": "^0.2.1",
     "jimp": "^0.16.1",
     "jsdom": "^16.4.0",
@@ -54,7 +55,7 @@
     "scrape-primbon": "^1.1.0",
     "util": "^0.12.4",
     "yargs": "^17.2.1",
-    "yt-search": "^2.10.2"
+    "yt-search": "^2.10.3"
   },
   "directories": {
     "lib": "lib",
